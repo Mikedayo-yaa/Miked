@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #505962;
+}
+/*Nav bar edit*/
+div.container-fluid {
+}
+
+a#navtext {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7bf86f;
+}
+
+
+
+img.logo1 {
+    position: relative;
+    left: -300px;
+    top: -200px;
+}
+
+img.logo2 {
+    position: relative;
+    left: 300px;
+    top: -200px;
+}
+
+img.imgEI1 {
+    position: absolute;
+    top: -590px;
+    left: 450px;
+}
+
+div.imagetext1 {
+    width: 500px;
+    position: relative;
+    left: 300px;
+}
+
+
+/*Home content boxes*/
+div.box1 {
+    top: 140px;
+    position: absolute;
+    border: 4px solid red;
+    width: 550px;
+    height: 180px;
+    left: 140px;
+    background-color: none;
+    font-size: 120px;
+}
+
+    div.box1:hover,
+    div.box1:focus {
+        border-color: #594781;
+        background-color: #7bf86f;
+        color: white;
+    }
+
+p.p1 {
+    color: #d73f3f;
+}
+
+div.box2 {
+    top: 330px;
+    position: absolute;
+    border: 4px solid red;
+    width: 900px;
+    height: 180px;
+    left: 140px;
+    background-color: none;
+    font-size: 120px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #3b8246;
+  color: white;
+  margin: 1rem;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #7bf86f;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #40474e;
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+footer img {
+  margin: 1.5rem 0;
+}
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+
+/*-- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+    padding: 1rem;
+}
